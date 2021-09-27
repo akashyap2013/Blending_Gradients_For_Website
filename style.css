@@ -1,0 +1,25 @@
+.container h1{
+    text-align: center;
+    padding-top: 3em;
+    font-size: 70px;
+}
+
+.container .buttons button{
+    background-color: whitesmoke;
+    border: none;
+    padding: .8em 2em;
+    margin: 2em 1em;
+    border-radius: .2em;
+}
+
+#canvas-image-blending{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -999;
+}
